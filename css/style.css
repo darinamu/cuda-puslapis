@@ -1,0 +1,57 @@
+header, article#work {
+    background-color: #87509c;
+}
+
+#work .btn-primary, #work .btn-primary:hover, #work .btn-primary:active, #work .btn-primary:visited {
+    background-color: #eb7d4b !important;
+}
+
+article#services {
+    background-color: #17c2a4;
+}
+
+.services-title:after, .team-title:after, .skills-title:after, .contact-title:after {
+    content:"";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: rgba(53, 53, 53, 0.25);
+    margin: 20px auto;
+}
+
+article#team {
+    background-color: #e7f1f8;
+}
+
+
+.fa-brands, .fa-solid {
+    text-decoration: none; 
+    border-radius: 50%;   
+    padding: 10px;
+    background-color: #bdd1df;
+    color: white;
+}
+
+.fa-facebook-f {
+    padding: 10px 13px;
+}
+
+article#contact {
+    background-color: #3c5499;
+}
+
+#contact .btn-primary, #contact .btn-primary:hover, #contact .btn-primary:active, #contact .btn-primary:visited {
+    background-color: #30bae7 !important;
+}
+
+.form-control {
+    background-color: #273a71;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+footer {
+    background-color: #344b8e;
+}
